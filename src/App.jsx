@@ -1,5 +1,5 @@
 import './App.css'
-import { BrowseRouter, Route, Routes} from "react-route-dom"
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import { AppWrapperComponent } from './Components/AppWrapper/AppWrapper'
 import { Page } from './Components/Page/page'
 
@@ -7,7 +7,7 @@ function App() {
   const [count, setCount] = useState(0)
    return(
         <>
-        <BrowseRouter>
+        <BrowserRouter>
         <Routes>
             <Route path="/" element={<AppWrapperComponent></AppWrapperComponent>}>
               <Route path="/contact" element={<Page title={"Contanct"} description={"SomeDescription"}></Page>}></Route>
@@ -18,7 +18,7 @@ function App() {
         
         
         </Routes>
-        </BrowseRouter>
+        </BrowserRouter>
         </>
     )
 
