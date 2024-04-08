@@ -1,0 +1,168 @@
+
+
+
+.icon { 
+    width: 32px;
+    height:32px;
+    filter: invert(98%) sepia(100%) saturate(0%) hue-rotate(325deg) brightness(101%) contrast(105%);
+  }
+
+.below_banner {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.766);
+    border-radius: 100px;
+    height: 200px;
+    margin-inline: 25px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: plum;
+    min-width: 200px;
+    height: 200px;
+    border-radius: 300px;
+}
+
+#gpulogo img {
+    width: 120px;
+    height: 120px;
+}
+
+.main_menu {
+    width: 100%;
+}
+.prvi_red {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100px;
+    color: white;  
+}
+
+.prvi_red > div
+    {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline: 50px;
+    }
+
+.Prvidioimena
+{
+    color: Plum;
+    font-size: xx-large;
+}
+
+.Drugidioimena
+{
+    color: plum;
+    font-size: xx-large;
+}
+
+
+.socialmedia div{
+        margin-inline: 10px;
+}
+
+.drugi_red{
+    display: flex;
+    align-items: center;
+    height: 100px;       
+}
+.onama a{
+    margin-inline: 0 auto;
+    width: 200px;
+}
+
+.onama{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;   
+    font-size: 45px;       
+}
+.onama a {
+    color: white;
+    text-decoration: none;
+}
+
+.onama a:hover
+{
+    font-size: 55px;
+    color: plum;
+}
+
+#em {
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}
+.telefon {
+    font-size: larger;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.banner
+    {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: rgba(0, 0, 0, 0.766);
+    border-radius: 1000px;
+    align-items: center;
+    text-align: center;
+    margin-inline: 25px;
+    margin-bottom: 25px;
+
+    }
+.banner img
+{
+    height:350px;
+    width: 700px;
+    border-radius: 300px;
+}
+
+.pretraži input {
+    border: solid white;
+    height: 30px;
+    width: 220px;
+    border-radius: 15px;
+}
+
+
+#gpulogo:hover
+    {
+    filter: invert(78%) sepia(9%) saturate(1305%) hue-rotate(304deg) brightness(104%) contrast(101%);
+    }
+#fb:hover 
+    {
+    filter: invert(35%) sepia(64%) saturate(849%) hue-rotate(187deg) brightness(90%) contrast(78%);
+    }
+
+#tw:hover 
+    {
+    filter: invert(49%) sepia(45%) saturate(1822%) hue-rotate(176deg) brightness(97%) contrast(95%);
+    }
+
+#in:hover 
+    {
+    filter: invert(31%) sepia(33%) saturate(2440%) hue-rotate(289deg) brightness(96%) contrast(97%);
+    }
+
+#wp:hover 
+    {    
+    filter: invert(63%) sepia(94%) saturate(412%) hue-rotate(86deg) brightness(92%) contrast(87%);
+    }
+#em:hover
+    {
+    filter: invert(6%) sepia(96%) saturate(7391%) hue-rotate(300deg) brightness(92%) contrast(101%);
+    }
+#košara:hover
+    {
+    filter: invert(78%) sepia(9%) saturate(1305%) hue-rotate(304deg) brightness(104%) contrast(101%);
+    }

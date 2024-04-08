@@ -1,0 +1,49 @@
+
+main 
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    
+
+}
+main > div
+{
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+}
+img 
+{
+    width: 400px;
+    height: 400px;
+    border-radius: 15px;
+}
+.klikkup
+{
+    width: 40px;
+    height:40px;
+    filter: invert(98%) sepia(100%) saturate(0%) hue-rotate(325deg) brightness(101%) contrast(105%);
+}
+.demodiv
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100px;
+    text-align: center;
+    font-size: larger;
+}
+.klikkup:hover
+{
+    width: 50px;
+    height: 50px;
+    filter: invert(92%) sepia(46%) saturate(1953%) hue-rotate(212deg) brightness(88%) contrast(96%);
+}
+h3
+{
+    color: plum;
+    font-size: x-large;
+}

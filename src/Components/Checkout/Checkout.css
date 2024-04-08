@@ -1,0 +1,40 @@
+
+.Podatci_kupca
+{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    font-size: xx-large;
+}
+input 
+{
+    border-radius: 25px;
+    height: 35px;
+    width: 250px;
+    font-size: large;
+}
+input::placeholder
+{
+    color: red;
+}
+button
+{
+    height: 35px;
+    width: 100px;
+    background-color: plum;
+    color: white;
+    border-radius: 25px;
+}
+button:hover
+{
+    height: 45px;
+    width: 150px;
+    font-size: 25px;
+    color: black;
+}
+label
+{
+    width: 200px;
+    display: inline-block;
+    text-align: right;
+}
