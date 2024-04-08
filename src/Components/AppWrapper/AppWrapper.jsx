@@ -1,5 +1,5 @@
 import { Header } from "../Header/Header"
-import { MainComponent } from "../MainComponent/MainComponent"
+import { Outlet } from "react-router-dom"
 import { Footer } from "../Footer/Footer"
 
 
@@ -8,7 +8,7 @@ function AppWrapperComponent(){
  return(
     <>
     <Header></Header>
-    <MainComponent></MainComponent>
+    <Outlet></Outlet>
     <Footer></Footer>
     </>
  )
