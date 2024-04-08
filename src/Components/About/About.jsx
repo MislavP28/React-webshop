@@ -19,16 +19,17 @@ function About () {
         <div class="divonama"> 
             <section>
                         <ul>
-                            <li>Glavni urednik: Valsim Ćičivap</li><br>
-                            <li>Pomoćni urednik: Stjepanče Pacov-Tipkovnović</li><br>
+                            <li>Glavni urednik: Valsim Ćičivap</li><br/>
+                            <li>Pomoćni urednik: Stjepanče Pacov-Tipkovnović</li><br/>
                             <li>Pomoćni urednih: Alenče Oktavijan Smajlović</li>
                         </ul>
             </section>
         </div>
         <div>
-                     <img src="Slike/images/istockphoto-1133861582-612x612.jpg" alt="Slika"> 
+                     <img src="Slike/images/istockphoto-1133861582-612x612.jpg" alt="Slika"/> 
         </div>
     </main>
 
     )
 }
+export { About}

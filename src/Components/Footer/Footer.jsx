@@ -21,10 +21,10 @@ function Footer(){
                 </div>
             </div>
             <div class="kontakt">
-                <span><strong>Javite nam se!</strong></span><br>
-                <span><strong>Email:</strong> gpukriticarshop@gmail.com</span><br>
-                <span><strong>Tel:</strong> 097 4477638</span><br>
-                <span><strong>Adresa:</strong> Jure Jurića 44 22213 Pirovac</span><br>
+                <span><strong>Javite nam se!</strong></span><br/>
+                <span><strong>Email:</strong> gpukriticarshop@gmail.com</span><br/>
+                <span><strong>Tel:</strong> 097 4477638</span><br/>
+                <span><strong>Adresa:</strong> Jure Jurića 44 22213 Pirovac</span><br/>
             </div>
             <div class="illegals">
                 <div>
@@ -46,7 +46,7 @@ function Footer(){
             </div>
             <div class="rights">
                 <div class="copyright">
-                    <span>Autorska prava © 2024 GpuKritičarShop</span><br>
+                    <span>Autorska prava © 2024 GpuKritičarShop</span><br/>
                     <span>Sva prava su zadržana</span>
                 </div>
 
