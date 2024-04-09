@@ -1,9 +1,9 @@
-import "./Contact.css"
+import "./Contact.scss"
 
 
-function Contacts (){
+function Contact (){
     return( 
-        <div>
+        <div className="contactcss">
             <div id="tablica1">
                 <table>
                     <tr>
@@ -60,4 +60,4 @@ function Contacts (){
         </div>
     )
 }
-export { Contacts }
+export { Contact }

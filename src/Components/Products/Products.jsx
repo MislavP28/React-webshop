@@ -1,7 +1,7 @@
-import "./Product.css"
+import "./Product.scss"
 
 
-function Product(){
+function Products(){
     return(
         <div className="productcss">
             
@@ -102,4 +102,4 @@ function Product(){
         </div>
     )
 }
-export { Product }
+export { Products }

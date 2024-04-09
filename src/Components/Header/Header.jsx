@@ -81,7 +81,7 @@ function Header(){
                                     </Link>
                                 </div>
                                 <div className="blog">
-                                    <Link to={"/blog"}>
+                                    <Link to={"/Blog"}>
                                         Blog
                                     </Link>
                                 </div>

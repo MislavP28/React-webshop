@@ -1,9 +1,9 @@
-import "./Blog.css"
+import "./Blog.scss"
 
 
 function Blog(){
     return (
-        <div>
+        <div className="blogcss">
                         <section className="sekšon1">
                 <h2>Nove NVIDIA gpu</h2>
                 

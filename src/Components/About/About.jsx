@@ -1,4 +1,4 @@
-import "./About.css"
+import "./About.scss"
 
 
 
@@ -36,4 +36,4 @@ function About () {
     </div>
     )
 }
-export { About}
+export { About }
