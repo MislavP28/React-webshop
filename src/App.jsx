@@ -16,7 +16,7 @@ function App() {
               <Route path="/contact" element={<Page title={"Contanct"} description={"SomeDescription"}></Page>}></Route>
               <Route path="/about" element={<Page title={"About"} description={"SomeDescription"}></Page>}></Route>
               <Route path="/product" element={<Product/>}></Route>
-            
+          
             </Route >
         
         
