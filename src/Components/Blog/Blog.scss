@@ -1,56 +1,50 @@
 
 .blogcss{
-.auto-height-iframe {
-    border: none;
-    width: 100%;
-    margin: 0;
-}
-body {
-    background-image: url(../Slike/images/wallpaperflare.com_wallpaper.jpg);
-    background-size: cover;
-    background-repeat: repeat;
-  }
+        margin-top: 20px;
+        
+        color: white;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: space-evenly;
 
-main{
-    background-color: rgba(0, 0, 0, 0.766);
-    border-radius: 15px;
-    color: white;
-    margin-bottom: 20px;
-    display: flex;
-    justify-content: space-evenly;
-  }
-  .blog img{
-    height: 700px;
-    width: 700px;
-    border-radius: 15px;
-}
-.blog{
-    display: flex;
-    justify-content:center;
-    flex-direction: column;
-}
-.blog section{
-    width: 100%;
-    font-size: x-large;
-}
-.slika1 {
-    float: left;
-    margin: 20px;
-}
-.slika2 {
-    float: left;
-    margin: 20px;
-}
-.slika3
-{
-    float: left;
-    margin: 20px;
-}
-p
-{
-    text-align: justify;
-    line-height: 40px;
-    width: 400px;
-    float: right;
-}
+    .auto-height-iframe {
+        border: none;
+        width: 100%;
+        margin: 0;
+    }
+
+    .blog img{
+        height: 700px;
+        width: 700px;
+        border-radius: 15px;
+    }
+    .blog{
+        display: flex;
+        justify-content:center;
+        flex-direction: column;
+    }
+    .blog section{
+        width: 100%;
+        font-size: x-large;
+    }
+    .slika1 {
+        float: left;
+        margin: 20px;
+    }
+    .slika2 {
+        float: left;
+        margin: 20px;
+    }
+    .slika3
+    {
+        float: left;
+        margin: 20px;
+    }
+    p
+    {
+        text-align: justify;
+        line-height: 40px;
+        width: 400px;
+        float: right;
+    }
 }
