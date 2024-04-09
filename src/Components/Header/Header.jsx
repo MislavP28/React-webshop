@@ -72,13 +72,25 @@ function Header(){
                             <div className="onama">
                                 <div className="Aboutus">
                                     <Link to={"/About"}>
-                                O nama
-                            </Link>
+                                        O nama
+                                    </Link>
                                 </div>
-                                <a href="../about.html" target="_parent"></a>
-                                <a href="../contact.html" target="_parent">Kontakt</a>
-                                <a href="../blog.html" target="_parent">Blog</a>
-                                <a href="../products.html" target="_parent">Proizvodi</a>
+                                <div className="Kontakti">
+                                    <Link to={"/Contact"}>
+                                        Kontakt
+                                    </Link>
+                                </div>
+                                <div className="blog">
+                                    <Link to={"/blog"}>
+                                        Blog
+                                    </Link>
+                                </div>
+                                <div className="Proizvodi">
+                                <Link to={"/Products"}>
+                                        Proizvodi
+                                    </Link>
+                                </div>
+                                
                             </div>
                         </div>
                     </div>
