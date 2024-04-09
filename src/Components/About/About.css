@@ -1,5 +1,5 @@
-
-.onama
+.aboutcss{
+   .onama
 {
     display: flex;
     justify-content: space-evenly;
@@ -24,4 +24,5 @@ img
 main
 {
     margin-bottom: 20px;
+} 
 }

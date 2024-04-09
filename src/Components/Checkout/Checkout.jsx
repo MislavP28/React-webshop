@@ -3,7 +3,7 @@ import "Checkout.css"
 
 function Checkout(){
     return (
-        <div class="Podatci_kupca">
+        <div className="Podatci_kupca">
         <form>
             <Label>Ime:</Label>
             <input required="true" type="text" name="Ime" placeholder="Unesite Ime:"/>

@@ -1,5 +1,5 @@
-
-body {
+.footercss{
+    body {
     margin: 0;
     font-size: larger;
     color: white;
@@ -77,4 +77,5 @@ body {
     .main, .iframe_map, .illegals {
         transition: all ease 300ms;
     }
+}
 }

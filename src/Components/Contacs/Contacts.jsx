@@ -33,7 +33,7 @@ function Contacts (){
             </div>
             <div id="tablica2">
 
-                <section class="podatci"> 
+                <section className="podatci"> 
                         
                     <ul>
                         <strong>Kontakt:</strong><br/>
@@ -44,16 +44,16 @@ function Contacts (){
                     </ul>
 
                 </section>
-                <section class="social_contacts"> 
+                <section className="social_contacts"> 
                         <ul><strong>Društvene mreže:</strong> <br/>
-                            <li><a id="tw" href="https://twitter.com" target="_blank"><img class="icon" src="Slike/ikone/twitter-x.svg" alt="Link za Twitter"/> @fanofkriticar</a></li>
-                            <li><a id="in" href="https://www.instagram.com/" target="_blank"><img class="icon" src="Slike/ikone/instagram.svg" alt="Link za Instagram"/> GpuKritičar</a></li>
-                            <li><a id="fb" href="https://www.facebook.com" target="_blank"><img class="icon" src="Slike/ikone/facebook.svg" alt="Link za facebook"/>GpuKritičar</a></li>
-                            <li><a id="wp" href="https://www.whatsapp.com/gpukriticar/" target="_blank"> <img class="icon" src="Slike/ikone/whatsapp.svg" alt="Link za whatsapp"/>GpuKritičar</a></li>
+                            <li><a id="tw" href="https://twitter.com" target="_blank"><img className="icon" src="Slike/ikone/twitter-x.svg" alt="Link za Twitter"/> @fanofkriticar</a></li>
+                            <li><a id="in" href="https://www.instagram.com/" target="_blank"><img className="icon" src="Slike/ikone/instagram.svg" alt="Link za Instagram"/> GpuKritičar</a></li>
+                            <li><a id="fb" href="https://www.facebook.com" target="_blank"><img className="icon" src="Slike/ikone/facebook.svg" alt="Link za facebook"/>GpuKritičar</a></li>
+                            <li><a id="wp" href="https://www.whatsapp.com/gpukriticar/" target="_blank"> <img className="icon" src="Slike/ikone/whatsapp.svg" alt="Link za whatsapp"/>GpuKritičar</a></li>
                         </ul><br/>
                 </section>
             </div>
-            <div class="slikakriticar">
+            <div className="slikakriticar">
                 <img src="Slike/images/Kritičar.jpg" alt="Karikatura Kritičara"/>
 
             </div>

@@ -1,7 +1,5 @@
-
-
-
-.icon { 
+.headercss{
+    .icon { 
     width: 32px;
     height:32px;
     filter: invert(98%) sepia(100%) saturate(0%) hue-rotate(325deg) brightness(101%) contrast(105%);
@@ -166,3 +164,7 @@ a {
     {
     filter: invert(78%) sepia(9%) saturate(1305%) hue-rotate(304deg) brightness(104%) contrast(101%);
     }
+
+}
+
+
