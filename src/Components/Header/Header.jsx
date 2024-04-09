@@ -1,4 +1,5 @@
 import "./Header.scss"
+import { Link } from "react-router-dom"
 
 
 function Header(){
@@ -23,7 +24,11 @@ function Header(){
 
                 <div className="below_banner">
                     <div className="logo">
-                        <a id="gpulogo" href="../index.html" target="_parent"/> <i class="bi bi-gpu-card"></i>
+                        <div className="gpulogo">
+                            <Link to={"/"}>
+                                <i class="bi bi-gpu-card"></i>
+                            </Link>
+                        </div>
                     </div>
 
                     <div className="main_menu">
@@ -59,7 +64,7 @@ function Header(){
                             </div>
 
                             <div className="košarica">
-                                <a href="../cart.html"></a><i class="bi bi-minecart"></i>
+                                <a href="../cart.html"><i class="bi bi-minecart"></i></a>
                             </div>
                         </div>
 
