@@ -4,18 +4,7 @@
     width: 100%;
     margin: 0;
 }
-body {
-    background-image: url(Slike/images/wallpaperflare.com_wallpaper.jpg);
-    background-size: cover;
-    background-repeat: repeat;
-    margin: 0;
-  }
-main{
-    background-color: rgba(0, 0, 0, 0.766);
-    border-radius: 65px;
-    color: white;
-    margin-inline: 25px;
-  }
+
 .popularne_kategorije{
     display: flex;
     justify-content: space-evenly;
@@ -91,6 +80,16 @@ main{
     float: right;
     margin: 20px;
 }
+.newsletter {
+    display: flex;
+    flex-direction: column;
+}
+.newsletter p {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
 .newsletter button {
     height: 34px;
     width: 40px;
@@ -99,10 +98,18 @@ main{
     height: 30px;
     width: 200px;
 }
+.nlb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .nlala {
     border-radius: 30px;
 } 
-
+.nlala img {
+    height: 16px;
+    width: 16px;
+}
 .interni_proizvod, h3, a  
 {
     text-decoration: none;

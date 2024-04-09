@@ -76,7 +76,7 @@ function Home (){
                 <p>
                     Pretplatite se na naš newsletter te budi među prvima koji će biti obavješten o našim novim proizvodima i blogovima.
                     <input className="nlala" type="text" placeholder="Pretplati se"/>
-                    <button className="nlala" type="submit"> <img src="Slike/ikone/send-fill.svg" alt=""/></button>
+                    <button className="nlala nlb" type="submit"><i class="bi bi-send-fill"></i></button>
                 </p>
             </article>
         </div>

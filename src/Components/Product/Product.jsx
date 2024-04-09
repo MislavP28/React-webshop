@@ -3,7 +3,7 @@ import "./Product.css"
 
 function Product(){
     return(
-        <div>
+        <div className="productcss">
             
             <div className="ROGfalchion">
                 <div>  

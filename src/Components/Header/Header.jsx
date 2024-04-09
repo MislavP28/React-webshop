@@ -23,13 +23,13 @@ function Header(){
 
                 <div className="below_banner">
                     <div className="logo">
-                        <a id="gpulogo" href="../index.html" target="_parent"/> <img className="icon" src="../Slike/ikone/gpu-card(1).svg" alt="Logo"/>
+                        <a id="gpulogo" href="../index.html" target="_parent"/> <i class="bi bi-gpu-card"></i>
                     </div>
 
                     <div className="main_menu">
                         <div className="prvi_red">
                             <div className="mail">
-                                <a id="em" href="mailto:gpukriticarshop@gmail.com" target="_blank"><img className="icon" src="../Slike/ikone/envelope-at.svg" alt="Link za mail"/>  gpukriticarshop@gmail.com</a>
+                                <a id="em" href="mailto:gpukriticarshop@gmail.com" target="_blank"><i class="bi bi-envelope-at"></i>  gpukriticarshop@gmail.com</a>
                             </div>
 
                             <div className="telefon">
@@ -38,19 +38,19 @@ function Header(){
 
                             <div className="socialmedia">
                                 <div className="instagram">
-                                    <a id="in" href="https://www.instagram.com/" target="_blank"><img className="icon" src="../Slike/ikone/instagram.svg" alt="Link za Instagram"/></a>
+                                    <a id="in" href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram"></i></a>
                                 </div>
 
                                 <div className="facebook">
-                                    <a id="fb" href="https://www.facebook.com" target="_blank"><img className="icon" src="../Slike/ikone/facebook.svg" alt="Link za Facebook"/></a>
+                                    <a id="fb" href="https://www.facebook.com" target="_blank"><i class="bi bi-facebook"></i></a>
                                 </div>
 
                                 <div className="twitter">
-                                    <a id="tw" href="https://twitter.com" target="_blank"><img className="icon" src="../Slike/ikone/twitter-x.svg" alt="Link za Twitter"/></a>
+                                    <a id="tw" href="https://twitter.com" target="_blank"><i class="bi bi-twitter-x"></i></a>
                                 </div>
 
                                 <div className="whatsapp">
-                                    <a id="wp" href="https://www.whatsapp.com/gpukriticar/" target="_blank"> <img className="icon" src="../Slike/ikone/whatsapp.svg" alt="Link za whatsapp"/></a>
+                                    <a id="wp" href="https://www.whatsapp.com/gpukriticar/" target="_blank"> <i class="bi bi-whatsapp"></i></a>
                                 </div>
                             </div>
 
@@ -59,7 +59,7 @@ function Header(){
                             </div>
 
                             <div className="košarica">
-                                <a href="../cart.html"></a><img id="košara" className="icon" src="../Slike/ikone/minecart.svg" alt="Košarica stvari"/>
+                                <a href="../cart.html"></a><i class="bi bi-minecart"></i>
                             </div>
                         </div>
 

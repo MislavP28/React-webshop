@@ -1,0 +1,13 @@
+body {
+    background-image: url(Slike/images/wallpaperflare.com_wallpaper.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    margin: 0;
+  }
+  
+  main{
+    background-color: rgba(0, 0, 0, 0.766);
+    border-radius: 65px;
+    color: white;
+    margin-inline: 25px;
+  }
