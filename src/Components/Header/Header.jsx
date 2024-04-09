@@ -70,7 +70,12 @@ function Header(){
 
                         <div className="drugi_red">
                             <div className="onama">
-                                <a href="../about.html" target="_parent">O nama</a>
+                                <div className="Aboutus">
+                                    <Link to={"/About"}>
+                                O nama
+                            </Link>
+                                </div>
+                                <a href="../about.html" target="_parent"></a>
                                 <a href="../contact.html" target="_parent">Kontakt</a>
                                 <a href="../blog.html" target="_parent">Blog</a>
                                 <a href="../products.html" target="_parent">Proizvodi</a>
