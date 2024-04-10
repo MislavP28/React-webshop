@@ -1,5 +1,5 @@
 import "./Footer.scss"
-
+import { Link } from "react-router-dom"
 
 function Footer(){
     return(
@@ -9,16 +9,24 @@ function Footer(){
                     <div className="links">
                         <span><strong>Sadržaj</strong></span>
                         <div className="home">
-                            <a href="../index.html" target="_parent"> Naslovnica </a>
+                            <Link to={"/"}>
+                                Naslovnica   
+                            </Link>
                         </div>
                         <div className="products">
-                            <a href="../products.html" target="_parent"> Proizvodi </a>
+                            <Link to={"/Products"}>
+                                Proizvodi
+                            </Link>
                         </div>
                         <div className="about">
-                            <a href="../about.html" target="_parent"> O nama</a>
+                            <Link to={"/About"}>
+                                O nama
+                            </Link>
                         </div>
                         <div className="contacts">
-                            <a href="../contact.html" target="_parent"> Kontakt</a>
+                            <Link to={"/Contact"}>
+                                Kontakt
+                            </Link>
                         </div>
                     </div>
                 </div>
