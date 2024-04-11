@@ -1,4 +1,5 @@
-
+import data from "../../../OpisProizvoda.json";
+import { Link } from "react-router-dom";
 
 function Productgen(){
     <div className="fitall">

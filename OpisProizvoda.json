@@ -39,7 +39,7 @@
         "brand": "Amd",
         "price": 999.99,
         "description": "Nova grafička kartica od strane Amd-a. grafička koja služi za 1440p i 4k gaming je odličan izbor za ljude na malo većem budžetu. Grafička nudi odličan omjer cijene i kvalitete nsapram svojih konkurenata.",
-        "src":"/public/slike/slike proizvoda/rx 7900 xtx.jpeg"
+        "src":"/public/slike/slike proizvoda/rx 7900 xtx.jpg"
     },
     {
         "id": 5,
@@ -47,7 +47,7 @@
         "brand": "NVIDIA",
         "price": 999.99,
         "description": "RTX 4080 je nova moćna NVIDIA grafička kartica koja je spremna za 1440p i 4k igranje uz raytracing tako da će vaše igre izgledati bolje nego ikada.",
-        "src":"/public/slike/slike proizvoda/rtx_4080.jpeg"
+        "src":"/public/slike/slike proizvoda/rtx_4080.jpg"
     },
     {
         "id": 6,
@@ -59,7 +59,7 @@
     },
     {
         "id": 7,
-        "name": "AAsus ROG PG34WCDM ",
+        "name": "Asus ROG PG34WCDM ",
         "brand": "Asus",
         "price": 1299.99,
         "description": "Novi QD-OLED monitor u Asusovoj ROG seriji. OLED monitori su sve bolji i bolji, a za prave igrače treba i pravi monitori. Asus ROG PG34WCDM je definitivno to te vam nudi prekrasnu sliku na glossy oled panelu u 1440p rezoluciji na veličini ekrana od 34 incha.",

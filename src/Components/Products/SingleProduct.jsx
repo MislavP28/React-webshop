@@ -1,4 +1,4 @@
-import data from "../../OpisProizvoda.json";
+import data from "../../../OpisProizvoda.json";
 import { useParams } from "react-router-dom"
 
 function SingleProduct(){
