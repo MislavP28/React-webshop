@@ -8,7 +8,7 @@ function Products(){
              {data.map((data, id) => (
                 <div key={id}>
                     <div>
-                        <Link to={"/product/" + data.id} onClick={() => {window.scrollTo(0,0)}}>
+                        <Link to={"/Products/" + data.id} onClick={() => {window.scrollTo(0,0)}}>
                         <img src={data.src} alt={data.name}/>
                     </Link>  
                     </div>
