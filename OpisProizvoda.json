@@ -5,10 +5,7 @@
         "brand": "Asus",
         "price": 149.99,
         "description":"ROG Falchion mehanička RGB kompaktna 65% gaming tipkovnica s Cherry MX Red prekidačima poveziva putem 2.4GHz wireless konekcije ili žičano, ASUS Aura Sync RGB osvjetljenje, interaktiva dodirna ploča, trajanje baterije do 450 sati, UK layout",
-        "Images":
-        [
-            {"src":"/public/slike/slike proizvoda/ROG Falchion.jpg"}
-        ]
+        "src":"/public/slike/slike proizvoda/ROG Falchion.jpg"
         
     },
     {
@@ -17,10 +14,7 @@
         "brand": "Asus",
         "price": 149.99,
         "description":"Bežični gaming miš ROG Chakram X Origin opremljen je snažnim ROG AimPoint optičkim senzorom rezolucije do 36.000 DPI i podesivim joystickom sa strane. Omogućuje bežično povezivanje putem USB-a, RF 2,4 GHz i Bluetooth 5.2 tehnologije. Podržava Nvidia Reflex i mehaničko prebacivanje prekidača, a ima i Aura Sync RGB osvjetljenje.",
-        "Images":
-        [
-            {"src":"/public/slike/slike proizvoda/ROG Chakram X.jpg"}
-        ]
+        "src":"/public/slike/slike proizvoda/ROG Chakram X.jpg"
         
     },
     {
@@ -29,11 +23,7 @@
         "brand": "DeepCool",
         "price": 79.99,
         "description":"DeepCool ak620 digital nudi odlično hlađenje vašeg procesora. Za hlađenje koristi 2 120mm ventilatora tako da se vaše kučište neće činiti kao mikrovalna dok podgrijavate kakao za duge gaming sesije.  Također sa strane ima i mini display koji prikazuje trenutnu temperaturu vašeg procesora. ",
-        "Images":
-        [
-            {"src":"/public/slike/slike proizvoda/02.webp"}
-        ]
-        
+        "src":"/public/slike/slike proizvoda/02.webp"
     },
     {
         "id": 3,
@@ -41,12 +31,7 @@
         "brand": "Amd",
         "price": 459.99,
         "description": "Novi moćni gaming procesor od strane AMD-a. Ryzen 7 7800x3d je najnovija perjanica za odličan gaming koji dolazi na novoj AM5 platformi. Procesor dolazi sa 8 jezgri koje rade na 4.2ghz sa boostom do 5.0ghz i 96 MB cache memorije.",
-        
-        "Images":
-        [
-            {"src":"/public/slike/slike proizvoda/amd-ryzen-7-7800x3d-review-4.webp"}
-        ]
-        
+        "src":"/public/slike/slike proizvoda/amd-ryzen-7-7800x3d-review-4.webp"
     },
     {
         "id": 4,
@@ -54,12 +39,7 @@
         "brand": "Amd",
         "price": 999.99,
         "description": "Nova grafička kartica od strane Amd-a. grafička koja služi za 1440p i 4k gaming je odličan izbor za ljude na malo većem budžetu. Grafička nudi odličan omjer cijene i kvalitete nsapram svojih konkurenata.",
-        
-        "Images":
-        [
-            {"src":"/public/slike/slike proizvoda/rx 7900 xtx.jpeg"}
-        ]
-        
+        "src":"/public/slike/slike proizvoda/rx 7900 xtx.jpeg"
     },
     {
         "id": 5,
@@ -67,12 +47,7 @@
         "brand": "NVIDIA",
         "price": 999.99,
         "description": "RTX 4080 je nova moćna NVIDIA grafička kartica koja je spremna za 1440p i 4k igranje uz raytracing tako da će vaše igre izgledati bolje nego ikada.",
-        
-        "Images":
-        [
-            {"src":"/public/slike/slike proizvoda/rtx_4080.jpeg"}
-        ]
-        
+        "src":"/public/slike/slike proizvoda/rtx_4080.jpeg"
     },
     {
         "id": 6,
@@ -80,12 +55,7 @@
         "brand": "NVIDIA",
         "price": 1999.99,
         "description": "Nova premium grafička kartica od strane NVIDIE koja je spremna i za najzahtjevnije 4k igranje uz upaljen raytracing bez da se imalo oznoji. Ako imate neograničen budžet uopće ne trebate razmišljeti koju grafičku uzeti RTX 4090 je pravi izbor za vas.",
-        
-        "Images":
-        [
-            {"src":"/public/slike/slike proizvoda/RTX 4090.webp"}
-        ]
-        
+        "src":"/public/slike/slike proizvoda/RTX 4090.webp"
     },
     {
         "id": 7,
@@ -93,11 +63,6 @@
         "brand": "Asus",
         "price": 1299.99,
         "description": "Novi QD-OLED monitor u Asusovoj ROG seriji. OLED monitori su sve bolji i bolji, a za prave igrače treba i pravi monitori. Asus ROG PG34WCDM je definitivno to te vam nudi prekrasnu sliku na glossy oled panelu u 1440p rezoluciji na veličini ekrana od 34 incha.",
-        
-        "Images":
-        [
-            {"src":"/public/slike/slike proizvoda/1692603952830.jpg"}
-        ]
-        
+        "src":"/public/slike/slike proizvoda/1692603952830.jpg"
     }
 ]
