@@ -1,7 +1,11 @@
-import data from "../../../OpisProizvoda.json";
 import { Link } from "react-router-dom";
+import { useFetch } from "../Hooks/UseFetch";
 
 function Productgen(){
+
+    const URL = import.meta.env.VITE_API_URL;
+    const data = useFetch(URL);
+
     <div className="fitall">
         <h2>Lista Proizvoda</h2>
         <div className="options">
@@ -12,7 +16,7 @@ function Productgen(){
                         <img src={data.src} alt={data.name}/>
                     </Link>
                     <div>
-                        <button><i class="bi bi-minecart"></i></button>
+                        <button><i className="bi bi-minecart"></i></button>
                         <br />
                         <span>{data.price} EUR</span>
                     </div>

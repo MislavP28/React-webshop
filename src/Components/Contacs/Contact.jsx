@@ -46,10 +46,10 @@ function Contact (){
                     </section>
                     <section className="social_contacts"> 
                             <ul><strong>Društvene mreže:</strong> <br/>
-                                <li><a id="tw" href="https://twitter.com" target="_blank"><i class="bi bi-twitter-x"></i>@fanofkriticar</a></li>
-                                <li><a id="in" href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram"/> GpuKritičar</a></li>
-                                <li><a id="fb" href="https://www.facebook.com" target="_blank"><i class="bi bi-facebook"/>GpuKritičar</a></li>
-                                <li><a id="wp" href="https://www.whatsapp.com/gpukriticar/" target="_blank"><i class="bi bi-whatsapp"></i>GpuKritičar</a></li>
+                                <li><a id="tw" href="https://twitter.com" target="_blank"><i className="bi bi-twitter-x"></i>@fanofkriticar</a></li>
+                                <li><a id="in" href="https://www.instagram.com/" target="_blank"><i className="bi bi-instagram"/> GpuKritičar</a></li>
+                                <li><a id="fb" href="https://www.facebook.com" target="_blank"><i className="bi bi-facebook"/>GpuKritičar</a></li>
+                                <li><a id="wp" href="https://www.whatsapp.com/gpukriticar/" target="_blank"><i className="bi bi-whatsapp"></i>GpuKritičar</a></li>
                             </ul><br/>
                     </section>
                 </div>

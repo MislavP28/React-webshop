@@ -26,7 +26,7 @@ function Header(){
                     <div className="logo">
                         <div className="gpulogo">
                             <Link to={"/"}>
-                                <i class="bi bi-gpu-card"></i>
+                                <i className="bi bi-gpu-card"></i>
                             </Link>
                         </div>
                     </div>
@@ -34,7 +34,7 @@ function Header(){
                     <div className="main_menu">
                         <div className="prvi_red">
                             <div className="mail">
-                                <a id="em" href="mailto:gpukriticarshop@gmail.com" target="_blank"><i class="bi bi-envelope-at"></i>  gpukriticarshop@gmail.com</a>
+                                <a id="em" href="mailto:gpukriticarshop@gmail.com" target="_blank"><i className="bi bi-envelope-at"></i>  gpukriticarshop@gmail.com</a>
                             </div>
 
                             <div className="telefon">
@@ -43,19 +43,19 @@ function Header(){
 
                             <div className="socialmedia">
                                 <div className="instagram">
-                                    <a id="in" href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram"></i></a>
+                                    <a id="in" href="https://www.instagram.com/" target="_blank"><i className="bi bi-instagram"></i></a>
                                 </div>
 
                                 <div className="facebook">
-                                    <a id="fb" href="https://www.facebook.com" target="_blank"><i class="bi bi-facebook"></i></a>
+                                    <a id="fb" href="https://www.facebook.com" target="_blank"><i className="bi bi-facebook"></i></a>
                                 </div>
 
                                 <div className="twitter">
-                                    <a id="tw" href="https://twitter.com" target="_blank"><i class="bi bi-twitter-x"></i></a>
+                                    <a id="tw" href="https://twitter.com" target="_blank"><i className="bi bi-twitter-x"></i></a>
                                 </div>
 
                                 <div className="whatsapp">
-                                    <a id="wp" href="https://www.whatsapp.com/gpukriticar/" target="_blank"> <i class="bi bi-whatsapp"></i></a>
+                                    <a id="wp" href="https://www.whatsapp.com/gpukriticar/" target="_blank"> <i className="bi bi-whatsapp"></i></a>
                                 </div>
                             </div>
 
@@ -64,7 +64,7 @@ function Header(){
                             </div>
 
                             <div className="košarica">
-                                <a href="../cart.html"><i class="bi bi-minecart"></i></a>
+                                <a href="../cart.html"><i className="bi bi-minecart"></i></a>
                             </div>
                         </div>
 

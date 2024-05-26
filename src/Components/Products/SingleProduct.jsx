@@ -1,7 +1,10 @@
-import data from "../../../OpisProizvoda.json";
 import { useParams } from "react-router-dom"
+import { useFetch } from "../Hooks/UseFetch";
 
 function SingleProduct(){
+    
+    const URL = import.meta.env.VITE_API_URL;
+    const data = useFetch(URL);
 
     let { id } = useParams();
     
@@ -20,7 +23,7 @@ function SingleProduct(){
                     <p>Cijena proizvoda: <span>{data[id].price} EUR</span></p>
                 </div>
                 <div className="staviukosaricu">
-                    <button><i class="bi bi-minecart"></i> Dodaj u košaricu</button>
+                    <button><i className="bi bi-minecart"></i> Dodaj u košaricu</button>
                 </div>
             </section>
 
