@@ -11,12 +11,12 @@ function Productgen(){
         <div className="options">
             {data.map((data, id) => (
                 <div key={id}>
-                    <h3>{data.brand} <br/> {data.name}</h3>
-                    <Link to={"/product/" + data.id} onClick={() => {window.scrollTo(0,0)}}>
-                        <img src={data.src} alt={data.name}/>
+                    <h3>{data.manufacturer} <br/> {data.productName}</h3>
+                    <Link to={"/product/" + data.productId} onClick={() => {window.scrollTo(0,0)}}>
+                        <img src={data.thumbnailLink} alt={data.thumbnailDescription}/>
                     </Link>
                     <div>
-                        <button><i className="bi bi-minecart"></i></button>
+                        
                         <br />
                         <span>{data.price} EUR</span>
                     </div>

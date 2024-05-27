@@ -1,26 +1,30 @@
 import { useParams } from "react-router-dom"
 import { useFetch } from "../Hooks/UseFetch";
+import "./SingleProduct.scss"
 
 function SingleProduct(){
-    
-    const URL = import.meta.env.VITE_API_URL;
+    let { id } = useParams();
+    const URL = import.meta.env.VITE_API_URL + "/" + id;
     const data = useFetch(URL);
 
-    let { id } = useParams();
+    
     
     return (
         <div className="product_wrap">
-            <h1>{data[id].name}</h1>
-            <section className="proizvod_opis">
+            <div className="budilijevo">
+                <h1>{data.imeProizvoda}</h1>
                 <div className="proizvod_slika">
-                    <img src={data[id].src} alt={data[id].name}/>
+                    { data.slikas ? (<img src={data.slikas[0]?.link} alt={data.slikas[0]?.opis}/>) : <p>loading...</p> }
                 </div>
+            </div>
+            
+            <section className="proizvod_opis">
                 <div className="proizvod_tekst">
                     <h3>Opis Proizvoda:</h3>
-                    <p> {data[id].description} </p>
+                    <p> {data.opis} </p>
                 </div>
                 <div className="kupi">
-                    <p>Cijena proizvoda: <span>{data[id].price} EUR</span></p>
+                    <p>Cijena proizvoda: <span>{data.cijena} EUR</span></p>
                 </div>
                 <div className="staviukosaricu">
                     <button><i className="bi bi-minecart"></i> Dodaj u košaricu</button>

@@ -11,12 +11,12 @@ function Products(){
              {data.map((data, id) => (
                 <div key={id}>
                     <div>
-                        <Link to={"/Products/" + data.id} onClick={() => {window.scrollTo(0,0)}}>
-                        <img src={data.src} alt={data.name}/>
+                        <Link to={"/Products/" + data.productId} onClick={() => {window.scrollTo(0,0)}}>
+                        <img src={data.thumbnailLink} alt={data.thumbnailDescription}/>
                     </Link>  
                     </div>
                     <div className="demodiv">
-                        <h3>{data.brand} <br/> {data.name}</h3>
+                        <h3>{data.manufacturer} <br/> {data.productName}</h3>
                         <span>{data.price} EUR</span>
                         <br/>
                         <button><i className="bi bi-minecart"></i></button>
