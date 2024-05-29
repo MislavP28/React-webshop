@@ -4,7 +4,7 @@ import { useFetch } from "../Hooks/UseFetch";
 function Productgen(){
 
     const URL = import.meta.env.VITE_API_URL;
-    const data = useFetch(URL);
+    const data = useFetch(URL + "products");
 
     <div className="fitall">
         <h2>Lista Proizvoda</h2>

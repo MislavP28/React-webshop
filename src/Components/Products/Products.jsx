@@ -5,7 +5,7 @@ import { useFetch } from "../Hooks/UseFetch";
 
 function Products(){
     const URL = import.meta.env.VITE_API_URL;
-    const data = useFetch(URL);
+    const data = useFetch(URL + "products");
     return(
         <div className="productcss">
              {data.map((data, id) => (

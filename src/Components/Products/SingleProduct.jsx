@@ -4,8 +4,8 @@ import "./SingleProduct.scss"
 
 function SingleProduct(){
     let { id } = useParams();
-    const URL = import.meta.env.VITE_API_URL + "/" + id;
-    const data = useFetch(URL);
+    const URL = import.meta.env.VITE_API_URL;
+    const data = useFetch(URL + "products/" + id);
 
     
     
